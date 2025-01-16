@@ -2,8 +2,30 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.border-help {
+.border-help {  /* biar gampang ngeliat div */
   border-style: solid;
   border-color: red;
   border-width: 1px;
+}
+
+
+
+
+.middle-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-left-wrap{
+  padding-left: 30px;
+}
+
+.m-l-items{
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: black;
+}
+
+#m-l-first-item{
+  border-top: none;
 }
