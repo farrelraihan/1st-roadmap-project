@@ -2,6 +2,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  margin: 0;
+}
 .border-help {  /* biar gampang ngeliat div */
   border-style: solid;
   border-color: red;
@@ -17,15 +20,34 @@ body {
 }
 
 .middle-left-wrap{
-  padding-left: 30px;
+
+}
+
+.middle-left-wrap h4 {
+  margin-left: 15px;
 }
 
 .m-l-items{
   border-top-style: solid;
   border-top-width: 1px;
   border-top-color: black;
+
+}
+
+.m-l-items p{
+  margin-left: 15px;
+  margin-right: 25px;
+  margin-bottom: 7px;
+  margin-top: 7px;
 }
 
 #m-l-first-item{
   border-top: none;
+  margin-left: 15px;
+  margin-bottom: 7px;
+
+}
+
+.middle-middle-wrap{
+  width: 490px;
 }
