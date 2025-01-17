@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Basic Website (Roadmap.sh)</title>
+  <script src="https://unpkg.com/feather-icons"></script>
   <link rel="stylesheet" href="styles/index.css">
 </head>
 
@@ -11,12 +12,13 @@
   <div>
     <!-- BAGIAN ATAS -->
     <div class="header-wrap border-help">
-      <div >
-        <i data-feather ="user">Your name</i>
+      <div class="header_kiri">
+        <div><i data-feather ="user"></i></div> 
+        <div class="posisi">Your Name</div>
       </div>
 
       <div>
-
+        <a href="#">Home</a> / <a href="#">Project</a> / <a href="#">Article</a> / <a href="#">Contact</a>
       </div>
     </div>
 
@@ -62,7 +64,9 @@
     </div>
   </div>  
 
-
+  <script>
+    feather.replace();
+  </script>
 </body>
 
 </html>

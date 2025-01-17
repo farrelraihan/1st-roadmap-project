@@ -11,9 +11,6 @@ p {
   border-width: 1px;
 }
 
-
-
-
 .middle-wrap{
   display: flex;
   justify-content: space-between;
@@ -50,4 +47,29 @@ p {
 
 .middle-middle-wrap{
   width: 490px;
+}
+
+.header-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_kiri{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.posisi{
+  display: flex;
+  align-items: center   ;
+}
+.posisi_kanan{
+  margin-right: 10px;
+}
+.posisi_kanan a{
+  text-decoration: none;
+  color: black;
+  padding: 5px;
 }
